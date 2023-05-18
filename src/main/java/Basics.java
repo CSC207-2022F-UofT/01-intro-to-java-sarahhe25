@@ -98,7 +98,7 @@ public class Basics {
          * Current count: 1
          * Current count: 0
          */
-        for (int i = 10, i >= 0; i--){
+        for (int i = 10; i >= 0; i--) {
             System.out.println(i);
         }
 
@@ -146,8 +146,8 @@ public class Basics {
         // Fill in the rest of the body here
         String[] arrSplit = to_split.split(' ');
 
-        for (int i = 0, i <= 7; i++) {
-            ret.append(arrSplit[i].charAt(0))
+        for (int i = 0; i <= 7; i++) {
+            ret.append(arrSplit[i].charAt(0));
         }
 
         return ret.toString();
@@ -178,7 +178,7 @@ public class Basics {
          */
 
         for (int i = 0; i <= arr.length; i++) {
-            current_sum += arr[i]
+            current_sum += arr[i];
         }
 
         return current_sum;
